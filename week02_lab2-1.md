@@ -272,7 +272,7 @@ void main() {
 วิชาที่ผ่าน: {Mobile Dev, Web Dev, AI, Database}
 ```
 **บันทึกผลการทดลอง: บันทึกโค้ดคำสั่งที่ได้**
-``dart
+```dart
 void main() {
   // === บล็อกที่ 1: ชนิดข้อมูลพื้นฐาน ===
   String studentName = "สมชาย ดีใจ";
