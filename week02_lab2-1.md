@@ -620,7 +620,7 @@ void main() {
 3. ใช้ `sort()` เรียงนักศึกษาตาม GPA จากสูงไปต่ำ แล้วพิมพ์ข้อมูลนักศึกษาที่มี GPA สูงสุด 3 อันดับแรก
 
 **บันทึกผลการทดลอง: บันทึกโค้ดคำสั่งที่ได้**
-``dart
+```dart
 String findTopStudentByFaculty(
     List<Map<String, dynamic>> students,
     String faculty) {
@@ -1065,7 +1065,7 @@ void main() {
 
 
 **บันทึกผลการทดลอง: บันทึกโค้ดคำสั่งที่ได้**
-``dart
+```dart
 class BankAccount {
   final String ownerName;
   double _balance;
@@ -1571,7 +1571,7 @@ void main() async {
 3. สร้าง `Stream<String>` ที่จำลองการส่ง Chat Message ทุก 1 วินาที เป็นเวลา 5 ครั้ง แล้วแสดงผลผ่าน `await for`
 
 **บันทึกผลการทดลอง: บันทึกโค้ดคำสั่งที่ได้**
-``dart
+```dart
 import 'dart:async';
 
 // Stream Generator ด้วย async*
@@ -1646,7 +1646,7 @@ const pi = 3.14;
 สรุป: final = ค่าคงที่ตอนรันโปรแกรม, const = ค่าคงที่ตั้งแต่ตอนคอมไพล์
 
 
-``
+```
 **ข้อ 2** Named Parameters และ Positional Parameters ต่างกันอย่างไร? ควรเลือกใช้แบบไหนเมื่อไหร่?
 ``` **Named Parameters** ใช้เมื่อมีหลายพารามิเตอร์เพื่อให้อ่านง่าย ส่วน **Positional Parameters** ใช้เมื่อมีพารามิเตอร์น้อยและต้องส่งค่าตามลำดับ
 
@@ -1657,7 +1657,7 @@ const pi = 3.14;
 
 
 
-``
+```
 **ข้อ 4** จากการทดลอง 4.1 Sequential ใช้เวลาประมาณกี่ ms และ Parallel ใช้เวลาเท่าไหร่? อธิบายเหตุผลที่ Parallel เร็วกว่า และบอกกรณีที่ต้องใช้ Sequential แทน
 ```text
 
